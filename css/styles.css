@@ -194,9 +194,6 @@ img {
 }
 .mob-menu-item {
 }
-/*.mob-menu-item:not(:last-child) {
-  margin-bottom: 24px;
-}*/
 
 .mob-menu-link {
   font-weight: 700;
@@ -256,7 +253,7 @@ img {
     url(../images/image-bg-mob.jpg);
   background-size: cover;
   /*max-width: 1440px;*/
-  max-width: 432px;
+  max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
 }
