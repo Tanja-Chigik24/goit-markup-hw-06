@@ -245,7 +245,7 @@ img {
 .hero {
   background: #2e2f42;
   /* padding: 188px 0;*/
-  padding: 72px 0 72px 0;
+  padding: 72px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -286,7 +286,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   /*max-width: 496px;*/
-  max-width: 216px;
+  max-width: 156px;
   /*padding-top: 68px;*/
   padding-top: 0px;
 }
@@ -527,7 +527,6 @@ button {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -992,6 +991,7 @@ button {
   }
   .hero {
     max-width: 768px;
+    padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1010,7 +1010,6 @@ button {
     }
   }
   .hero-title {
-    margin-top: 40px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -1018,7 +1017,6 @@ button {
   }
   .hero-btn {
     margin-top: 36px;
-    margin-bottom: 40px;
   }
 
   .principles-list {
@@ -1097,6 +1095,10 @@ button {
     width: 1158px;
     margin-left: auto;
   }
+  .header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
 
   .header-nav {
     margin-right: 331px;
@@ -1118,8 +1120,8 @@ button {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0 auto;
   }
-
   .hero {
     padding: 188px 0;
     max-width: 1440px;
@@ -1141,11 +1143,12 @@ button {
     }
   }
   .hero-title {
-    padding-top: 68px;
+    padding-top: 0;
+    margin-top: 0;
   }
   .hero-btn {
     margin-top: 48px;
-    margin-bottom: 68px;
+    margin-bottom: 0;
   }
   .principles {
     padding-top: 120px;
@@ -1208,7 +1211,6 @@ button {
     max-width: 264px;
   }
   .social {
-    padding-bottom: 32px;
     margin-right: 80px;
     margin-left: 0px;
     margin-bottom: 0px;
