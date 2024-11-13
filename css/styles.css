@@ -468,7 +468,6 @@ button {
 }
 
 .portfolio {
-  /*background: #f4f4fd;*/
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -1184,6 +1183,7 @@ button {
   .team-item {
     width: calc((100% - 3 * 24px) / 4);
   }
+
   .portfolio-list {
     column-gap: 24px;
     row-gap: 48px;
