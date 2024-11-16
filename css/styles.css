@@ -652,7 +652,7 @@ button {
   background: #2e2f42;
   border: 1px solid #fff;
   border-radius: 4px;
-  /*width: 264px;*/
+  opacity: 0.3;
   width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
