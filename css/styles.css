@@ -237,14 +237,12 @@ img {
 }
 
 .section {
-  /*padding-top: 120px;
-  padding-bottom: 120px;*/
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
 .hero {
   background: #2e2f42;
-  /* padding: 188px 0;*/
   padding: 72px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -252,8 +250,7 @@ img {
     ),
     url(../images/image-bg-mob.jpg);
   background-size: cover;
-  /*max-width: 1440px;*/
-  max-width: 320px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -300,12 +297,10 @@ button {
   background: #4d5ae5;
   border: none;
   padding: 16px 32px;
-  /*margin-top: 48px;*/
   margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  /*margin-bottom: 68px;*/
   margin-bottom: 0px;
   min-width: 169px;
   border-radius: 4px;
@@ -319,8 +314,6 @@ button {
   background: #404bbf;
 }
 .principles {
-  /*padding-top: 120px;
-  padding-bottom: 120px;*/
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -341,7 +334,6 @@ button {
 .principles-list {
   display: flex;
   flex-wrap: wrap;
-  /*gap: 24px;*/
   gap: 72px;
 }
 
@@ -361,14 +353,10 @@ button {
   fill: #2a2a2a;
 }
 .principles-item {
-  /*width: calc((100% - 72px) / 4);*/
   width: 100%;
 }
 
 .principles-subtitle {
-  /* font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;*/
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -383,6 +371,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.team .container {
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .team {
@@ -405,7 +398,6 @@ button {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /*gap:24px;*/
   gap: 72px;
 }
 
@@ -418,11 +410,8 @@ button {
   background: #f4f4fd;
 }
 
-.team-image {
-  margin: 0 auto;
-}
 .worker {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -641,6 +630,9 @@ button {
   background-color: #31d0aa;
 }
 
+.subscribe {
+  max-width: 288px;
+}
 .text-subscribe {
   font-weight: 500;
   font-size: 16px;
@@ -694,7 +686,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  gap: 16px;
+  /*gap: 16px;*/
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1024,9 +1016,14 @@ button {
   .principles-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .principles-subtitle {
+    text-align: start;
+  }
   .team .container {
-    width: 584px;
-    margin: 0 auto;
+    width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .team-item {
     width: calc((100% - 24px) / 2);
@@ -1044,7 +1041,7 @@ button {
   }
 
   .text {
-    max-width: 264px;
+    width: 264px;
     margin-left: 92px;
     margin-right: 24px;
   }
@@ -1059,7 +1056,8 @@ button {
 
   .social {
     margin-right: 148px;
-    margin-bottom: 104px;
+    margin-bottom: 0;
+    max-height: 80px;
   }
 
   .text-social {
@@ -1068,19 +1066,25 @@ button {
   .footer-media {
     justify-content: start;
   }
+  .subscribe {
+    max-width: 453px;
+    margin-left: 92px;
+  }
 
   .text-subscribe {
-    margin-left: 92px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .footer-form {
     display: flex;
-    gap: 24px;
+    /*margin-right: 24px;*/
     margin-top: 16px;
   }
   .footer-input-email {
     width: 264px;
-    margin-left: 92px;
+    /*margin-left: 92px;*/
     margin-bottom: 0px;
+    margin-right: 24px;
   }
   .footer-form-btn {
     justify-content: start;
@@ -1210,10 +1214,11 @@ button {
   .footer-text {
     max-width: 264px;
   }
-  .social {
+  .text-social {
     margin-right: 80px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+  }
+  .social {
+    margin: 0px;
   }
   .footer-container {
     display: flex;
@@ -1222,11 +1227,14 @@ button {
 
   .footer-form {
     display: flex;
-    gap: 24px;
     margin-top: 16px;
   }
+  .subscribe {
+    margin-left: 0;
+  }
   .text-subscribe {
-    margin-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer-input-email {
