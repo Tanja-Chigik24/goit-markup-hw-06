@@ -192,8 +192,6 @@ img {
   flex-direction: column;
   gap: 40px;
 }
-.mob-menu-item {
-}
 
 .mob-menu-link {
   font-weight: 700;
@@ -224,8 +222,7 @@ img {
 .mob-address-link:focus {
   color: #404bbf;
 }
-.mob-social {
-}
+
 .mob-icon-list {
   display: flex;
   width: 280px;
@@ -250,7 +247,7 @@ img {
     ),
     url(../images/image-bg-mob.jpg);
   background-size: cover;
-  max-width: 1440px;
+  max-width: 1158px;
   background-repeat: no-repeat;
   background-position: center;
 }
