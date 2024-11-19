@@ -240,7 +240,7 @@ img {
 
 .hero {
   background: #2e2f42;
-  padding: 72px 0;
+  padding: 72px auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -250,6 +250,7 @@ img {
   max-width: 1158px;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 
 @media screen and (-webkit-min-pixel-ratio: 2),
@@ -1167,8 +1168,8 @@ button {
   }
 
   .team .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .team {
     padding-top: 120px;
