@@ -33,8 +33,6 @@ image {
   display: block;
 }
 .header {
-  /*padding-bottom: 24px;
-  padding-top: 24px;*/
   padding-bottom: 16px;
   padding-top: 16px;
   border-bottom: 1px solid #e7e9fc;
@@ -42,7 +40,6 @@ image {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
-  /* width: 1158px;*/
   width: 320px;
   margin: 0 auto;
   padding-left: 16px;
@@ -57,7 +54,6 @@ image {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
-  /*margin-right: 332px;*/
 }
 
 .header-logo {
@@ -68,7 +64,6 @@ image {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /*margin-right: 76px;*/
   margin-right: auto;
 }
 
@@ -77,9 +72,7 @@ image {
 }
 
 .header-nav-list {
-  /*display: flex;*/
   display: none;
-  /*gap: 40px;*/
 }
 
 .header-nav-link {
@@ -126,9 +119,7 @@ img {
 }
 
 .address-list {
-  /* display: flex;*/
   display: none;
-  /*gap: 40px;*/
 }
 
 .address-link {
@@ -228,7 +219,6 @@ img {
   width: 280px;
   gap: 40px;
   margin-top: 48px;
-  /*margin-bottom: 40px;*/
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: #fff, rgba(0, 0, 0, 0.2);
 }
@@ -271,18 +261,14 @@ button {
 
 .hero-title {
   font-weight: 700;
-  /*font-size: 56px;*/
   font-size: 36px;
-  /* line-height: 1.07;*/
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   margin-right: auto;
   margin-left: auto;
-  /*max-width: 496px;*/
   max-width: 156px;
-  /*padding-top: 68px;*/
   padding-top: 0px;
 }
 
@@ -336,7 +322,6 @@ button {
 }
 
 .principles-icon-container {
-  /*display: flex;*/
   display: none;
   align-items: center;
   justify-content: center;
@@ -400,7 +385,6 @@ button {
 }
 
 .team-item {
-  /*width: calc((100%-3 * 24px) / 4);*/
   width: 100%;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -463,8 +447,6 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  /*column-gap: 24px;
-  row-gap: 48px;*/
   gap: 48px;
 }
 .portfolio-list .picture {
@@ -474,7 +456,6 @@ button {
 
 .portfolio-item {
   background: #fff;
-  /* width: calc((100% - 48px) / 3);*/
   width: 100%;
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -534,7 +515,6 @@ button {
 
 .footer {
   background: #2e2f42;
-  /*display: flex;*/
   display: block;
   padding-top: 96px;
   padding-bottom: 96px;
@@ -542,9 +522,6 @@ button {
 
 .text {
   display: block;
-  /* padding-top: 100px;
-  padding-bottom: 100px;
-  margin-right: 120px;*/
   margin-bottom: 72px;
 }
 
@@ -556,7 +533,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
-  /*display: inline-block;*/
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
@@ -571,7 +547,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /*max-width: 264px;*/
   max-width: 288px;
   flex-wrap: wrap;
   display: flex;
@@ -579,10 +554,7 @@ button {
 
 .social {
   display: block;
-  /*padding-top: 100px;
-  padding-bottom: 132px;*/
   max-width: 208px;
-  /*margin-right: 80px;*/
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
@@ -619,7 +591,6 @@ button {
 }
 
 .footer-container {
-  /*display: flex;*/
   align-items: baseline;
   display: block;
 }
@@ -644,9 +615,6 @@ button {
 }
 
 .footer-form {
-  /*display: flex;
-  gap: 24px;
-  margin-top: 16px;*/
   display: block;
 }
 
@@ -672,7 +640,6 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-  /*padding-left: 16px;*/
 }
 
 .footer-form-btn {
@@ -685,14 +652,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /*gap: 16px;*/
   margin-left: auto;
   margin-right: auto;
   display: flex;
   border: none;
   justify-content: center;
   align-items: center;
-  /*margin-bottom: 96px;*/
 }
 
 .backdrop {
@@ -717,8 +682,6 @@ button {
 
 .modal {
   position: absolute;
-  /*width: 408px;
-  min-height: 584px;*/
   width: 288px;
   min-height: 623px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -728,7 +691,6 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*padding: 72px 24px 24px 24px;*/
   padding: 72px 16px 24px 16px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -778,7 +740,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  /*max-width: 360px;*/
   max-width: 256px;
   margin-bottom: 16px;
 }
@@ -868,7 +829,8 @@ button {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
+  margin-bottom: 24px;
+  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -878,13 +840,19 @@ button {
 }
 
 .privasy {
+  align-items: center;
+  margin-bottom: 0;
+}
+.text-link-privasy {
   margin-bottom: 24px;
 }
+
 .check-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
   align-items: center;
 }
 
@@ -899,6 +867,10 @@ button {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-chek:focus + .check-text {
+  color: #4d5ae5;
 }
 
 .modal-text::placeholder {
@@ -924,8 +896,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
-  /*margin-top: 24px;*/
-  /*margin-bottom: 24px;*/
   min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -979,9 +949,14 @@ button {
   .modal-button {
     margin-bottom: 0;
   }
+
+  .modal-icon-check {
+    margin-top: 0;
+    display: inline-flex;
+  }
+
   .hero {
     max-width: 1158px;
-    /*padding: 112px 0;*/
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1075,12 +1050,10 @@ button {
   }
   .footer-form {
     display: flex;
-    /*margin-right: 24px;*/
     margin-top: 16px;
   }
   .footer-input-email {
     width: 264px;
-    /*margin-left: 92px;*/
     margin-bottom: 0px;
     margin-right: 24px;
   }
