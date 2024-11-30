@@ -219,8 +219,6 @@ img {
   width: 280px;
   gap: 40px;
   margin-top: 48px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #fff, rgba(0, 0, 0, 0.2);
 }
 
 .section {
@@ -869,8 +867,8 @@ button {
   fill: #f4f4fd;
 }
 
-.modal-chek:focus + .check-text {
-  color: #4d5ae5;
+.modal-chek:focus + .check-text span {
+  border-color: #4d5ae5;
 }
 
 .modal-text::placeholder {
