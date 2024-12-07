@@ -741,6 +741,10 @@ button {
   max-width: 256px;
   margin-bottom: 16px;
 }
+
+.modal-form {
+  margin-bottom: 0;
+}
 .modal-field {
   margin-bottom: 8px;
 }
